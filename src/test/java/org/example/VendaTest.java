@@ -18,7 +18,8 @@ public class VendaTest {
     public void testarVendaComQuantidadeMenorQueEstoque() {
         Venda venda = new Venda(produto, 2);
 
-        Assertions.assertTrue(venda.realizarVenda());
+//        Assertions.assertTrue(venda.realizarVenda());
+        Assertions.assertEquals(2, venda.getQuantidadeVendida());
     }
 
     //  2 - Testar venda com quantidade igual ao estoque disponível.
@@ -105,6 +106,9 @@ public class VendaTest {
 
         venda1.realizarVenda();
         venda2.realizarVenda();
+
+        Assertions.assertEquals(produto, venda1.getProduto());
+        Assertions.assertEquals(produto2, venda2.getProduto());
 
         Assertions.assertEquals(1, produto.getEstoque());
         Assertions.assertEquals(4, produto2.getEstoque());

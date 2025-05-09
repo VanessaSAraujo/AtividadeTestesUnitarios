@@ -1,11 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.snack</groupId>
-  <artifactId>snack-project</artifactId>
-  <packaging>jar</packaging>
+
+  <groupId>org.example</groupId>
+  <artifactId>TestUnitarioAV1</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>snack-project</name>
+  <packaging>jar</packaging>
+
+  <name>TestUnitarioAV1</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,13 +17,13 @@
   </properties>
 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.12.2</version>
-      <scope>test</scope>
-    </dependency>
+  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.12.2</version>
+    <scope>test</scope>
+  </dependency>
   </dependencies>
 
   <build>

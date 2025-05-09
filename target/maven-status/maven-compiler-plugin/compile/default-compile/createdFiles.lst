@@ -1,6 +1,0 @@
-com\snack\facade\ProductFacade.class
-com\snack\repositories\ProductRepository.class
-com\snack\entities\Product.class
-com\snack\App.class
-com\snack\applications\ProductApplication.class
-com\snack\services\ProductService.class
